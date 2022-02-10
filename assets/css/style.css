@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Commissioner:wght@400;500;700&display=swap');
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+:root{
+--bright-red:hsl(12, 88%, 59%);
+--dark-blue:hsl(228, 39%, 23%);
+--dark-grayish-blue:hsl(227, 12%, 61%);
+--very-dark-blue:hsl(233, 12%, 13%);
+--very-pale-red:hsl(13, 100%, 96%);
+--vary-light-gray:hsl(0, 0%, 98%);
+}
+
+
+body{
+       font-size: 16px;
+       font-family: 'Be Vietnam Pro', sans-serif;
+       background-color:azure;
+}
+
+ul, ol {
+       list-style: none;
+}
+a{
+       text-decoration: none;
+       color: var(--very-dark-blue);
+
+}
+a:hover{
+       color: var(--dark-grayish-blue);
+}
+
+button, a {
+       transition: all 0,3ms ease-in-out;
+}
+.btn{
+       border: 0;
+       background-color: var(--vary-light-gray);
+       padding: 12px 30px;
+       cursor: pointer;
+       border-radius: 30px;
+}
+.btn-primary{
+       background-color: var(--bright-red);
+       color: white;
+       box-shadow: ;
+}
+.btn-primary:hover{
+       opacity: 0,7;
+       box-shadow: 0 0 0;
+}
+.btn-secondary {
+       background-color: var(--vary-light-gray);
+       color: var(--bright-red);
+}
+.container{
+       width: 1170px;
+       margin: 0 auto;
+
+}
+/*Header */
+Header{
+       padding: 60px;
+
+}.header-wrapper{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       align-items: center;
+}
+.primary-menu {
+       display: flex;
+}
+
+.primary-menu li a {
+       padding-right: 6px;
+       padding-left: 6px;
+}
+
+
+.row {
+       display: flex;
+       align-items: center;
+}
+.col-left, .col-right {
+       width: 50%;
+
+}
+
+
+/* HERO SECTION */
+.hero {
+       padding-top: 100px;
+       padding-bottom: 100px;
+}
+.bg-pattern {
+       position: absolute;
+       top: -120px;
+       right: -30px;
+       z-index: 0;
+}
+.hero-heading {
+       font-size: 60px;
+       margin-bottom: 25px;
+       line-height: 1.2;
+}
+.hero-text {
+       color: var(--dark-grayish-blue);
+       margin-bottom: 30px;
+}
+.heo-image {
+       margin-right: -20px;
+       z-index: 2;
+       position: relative;
+       text-align: right;
+}
+
